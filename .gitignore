@@ -1,2 +1,10 @@
-#so i dont put my photos on Github
+#dont put my photos on Github (These dont work)
+#Windows Macbook
 PixelsortImages\
+
+#Work PC
+images\
+
+#keep environment variables separated by computer
+.env
+
