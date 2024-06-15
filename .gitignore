@@ -7,3 +7,4 @@ images\
 
 #keep environment variables separated by computer
 .env
+
