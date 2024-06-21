@@ -12,8 +12,20 @@ def userInput():
     fileType = input("What is the file type of the image you want to fuck up? If you already input a file type, just hit enter.\n")
     finalName = input("What do you want to call the fucked up image?\n")
 
+
     #determine what file will be sorted, and what it should be called.  Uses .env to get paths.
     input_path = os.getenv("input_path") + initialName + fileType
     output_path = os.getenv("output_path") + finalName + ".png"
 
     return input_path, output_path
+'''
+def determineIntervalFunction():
+    Functions = input('''What interval function do you want to use?\n
+                      0 - (default)\n
+                      1 - 
+                      ''')
+
+def determineParameter():
+
+def determineSortingFunction():
+'''

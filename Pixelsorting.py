@@ -11,7 +11,7 @@ def pixelsorter(input_path, output_path):
         theImage = Image.open(input_path) 
 
         #conducts the actual pixelsorting
-        sortedImage = pixelsort(theImage)
+        sortedImage = pixelsort(theImage, angle= 90)
 
         #save the image to output path
         sortedImage.save(output_path)

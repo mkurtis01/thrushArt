@@ -1,0 +1,14 @@
+1. replicate kim asendorf original script
+2. add angle changer
+3. Add support for multiple pictures being changed at once
+4. add support for making multiple copies of one picture, with different effects done at once
+5. add support for both at the same time
+6. add ability to sort all pictures in the folder
+
+Add some sort of GUI
+
+maybe add mask support somehow?
+
+maybe add AI Llava support somehow? lol
+
+add all of these things for pnglitch too
