@@ -18,14 +18,46 @@ def userInput():
     output_path = os.getenv("output_path") + finalName + ".png"
 
     return input_path, output_path
-'''
+
 def determineIntervalFunction():
-    Functions = input('''What interval function do you want to use?\n
-                      0 - (default)\n
-                      1 - 
-                      ''')
+    Function = input('''What interval function do you want to use?\n
+                      0 - Threshold(default)\n
+                      1 - Random\n
+                      2 - Edges\n
+                      3 - Waves\n
+                      4 - None\n'''
+                      )
+    print(Function)
 
 def determineParameter():
+    
+    Parameters = input('''Please set the customization parameters for your sort.
+                       To set input parameters, choose the parameters you wish to change.  All other parameters will be set to default.\n
+                        0 - Interval Function(Threshold by default)\n
+                        1 - Randomness(0 by default)\n
+                        2 - Upper Threshold(0.25 by default)\n
+                        3 - Lower Threshold(0.8 by default)\n
+                        4 - Character Length(only used in Random and Waves modes)\n
+                        5 - Angle(0 by default)\n
+                        6 - HELP'''
+                        )
+    if Parameters != "6":
+        print(Parameters)
+    else:
+        print("OK put in the # of a parameter and ill explain that shit to you\n")
+        helpParameters = input('''
+                        0 - Interval Function\n
+                        1 - Randomness\n
+                        2 - Upper Threshold\n
+                        3 - Lower Threshold\n
+                        4 - Character Length\n
+                        5 - Angle\n
 
 def determineSortingFunction():
-'''
+    Functions = input('''What quality do you want to sort the pixels by?\n
+                      0 - lightness\n
+                      1 - hue\n
+                      2 - saturation\n
+                      3 - intensity\n
+                      4 - minimum\n'''
+                      )

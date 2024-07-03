@@ -4,6 +4,7 @@
 4. add support for making multiple copies of one picture, with different effects done at once
 5. add support for both at the same time
 6. add ability to sort all pictures in the folder
+7. help option so you can get descriptions of things
 
 Add some sort of GUI
 
